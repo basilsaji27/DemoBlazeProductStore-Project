@@ -37,4 +37,7 @@ export class SignUpPage{
         await this.signuppassword.fill(signupCreds.password)
         await this.signupclosebtn.click();
     }
+    async validatingUnsuccessfulSignUp(){
+        await expect(this.signupheaderbtn).toHaveText('Sign up');
+    }
 }

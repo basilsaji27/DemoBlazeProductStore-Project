@@ -12,4 +12,5 @@ test('Unsuccessful Sign Up', async ({ page }) => {
     const signuppage = new SignUpPage(page);
     await signuppage.applicationLaunch();
     await signuppage.ignoreSignUp();
+    await signuppage.validatingUnsuccessfulSignUp();
 })
