@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="34.639813">
+<testsuite name="checkout.spec.js" timestamp="2026-07-27T14:17:16.899Z" hostname="chromium" tests="1" failures="0" skipped="0" time="28.313" errors="0">
+<testcase name="Verify user able to add a monitor to cart and checkout the product successfully" classname="checkout.spec.js" time="28.313">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|checkout-Verify-user-able--2ba3e-ut-the-product-successfully-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|checkout-Verify-user-able--2ba3e-ut-the-product-successfully-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
