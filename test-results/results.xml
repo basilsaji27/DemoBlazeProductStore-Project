@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="1" time="84.08510500000001">
-<testsuite name="addToCart.spec.js" timestamp="2026-07-27T14:33:11.049Z" hostname="chromium" tests="1" failures="0" skipped="0" time="22.142" errors="0">
-<testcase name="Verify user able to add a product to cart successfully" classname="addToCart.spec.js" time="22.142">
+<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="1" time="61.71895">
+<testsuite name="addToCart.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.84" errors="0">
+<testcase name="Verify user able to add a product to cart successfully" classname="addToCart.spec.js" time="12.84">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|addToCart-Verify-user-able-39227-roduct-to-cart-successfully-chromium\test-finished-1.png]]
@@ -10,8 +10,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="checkout.spec.js" timestamp="2026-07-27T14:33:11.049Z" hostname="chromium" tests="2" failures="0" skipped="0" time="63.165" errors="0">
-<testcase name="Verify user able to add a phone to cart and checkout the product successfully" classname="checkout.spec.js" time="31.213">
+<testsuite name="checkout.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="2" failures="0" skipped="0" time="46.736" errors="0">
+<testcase name="Verify user able to add a phone to cart and checkout the product successfully" classname="checkout.spec.js" time="23.128">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|checkout-Verify-user-able--6f173-ut-the-product-successfully-chromium\test-finished-1.png]]
@@ -20,7 +20,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user able to add a monitor to cart and checkout the product successfully" classname="checkout.spec.js" time="31.952">
+<testcase name="Verify user able to add a monitor to cart and checkout the product successfully" classname="checkout.spec.js" time="23.608">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|checkout-Verify-user-able--2ba3e-ut-the-product-successfully-chromium\test-finished-1.png]]
@@ -30,8 +30,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="login.spec.js" timestamp="2026-07-27T14:33:11.049Z" hostname="chromium" tests="5" failures="0" skipped="0" time="55.946" errors="0">
-<testcase name="Veriy user login using valid credentials" classname="login.spec.js" time="11.142">
+<testsuite name="login.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="5" failures="0" skipped="0" time="54.413" errors="0">
+<testcase name="Veriy user login using valid credentials" classname="login.spec.js" time="8.475">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Veriy-user-login-using-valid-credentials-chromium\test-finished-1.png]]
@@ -40,7 +40,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Veriy user login using invalid username and valid password credentials" classname="login.spec.js" time="11.028">
+<testcase name="Veriy user login using invalid username and valid password credentials" classname="login.spec.js" time="8.741">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Veriy-user-login-usi-7cfa1--valid-password-credentials-chromium\test-finished-1.png]]
@@ -49,7 +49,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user login with valid username and invalid password" classname="login.spec.js" time="11.24">
+<testcase name="Verify user login with valid username and invalid password" classname="login.spec.js" time="10.801">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Verify-user-login-wi-287e2-ername-and-invalid-password-chromium\test-finished-1.png]]
@@ -58,7 +58,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user login with invalid username and invalid password" classname="login.spec.js" time="10.155">
+<testcase name="Verify user login with invalid username and invalid password" classname="login.spec.js" time="15.695">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Verify-user-login-wi-7c3d9-ername-and-invalid-password-chromium\test-finished-1.png]]
@@ -67,7 +67,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user login and logout" classname="login.spec.js" time="12.381">
+<testcase name="Verify user login and logout" classname="login.spec.js" time="10.701">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Verify-user-login-and-logout-chromium\test-finished-1.png]]
@@ -77,8 +77,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="signup.spec.js" timestamp="2026-07-27T14:33:11.049Z" hostname="chromium" tests="2" failures="0" skipped="0" time="39.203" errors="1">
-<testcase name="New User Sign Up" classname="signup.spec.js" time="27.858">
+<testsuite name="signup.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="2" failures="0" skipped="0" time="29.865" errors="1">
+<testcase name="New User Sign Up" classname="signup.spec.js" time="22.355">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|signup-New-User-Sign-Up-chromium\test-failed-1.png]]
@@ -191,7 +191,7 @@
 ]]>
 </error>
 </testcase>
-<testcase name="Unsuccessful Sign Up" classname="signup.spec.js" time="11.345">
+<testcase name="Unsuccessful Sign Up" classname="signup.spec.js" time="7.51">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|signup-Unsuccessful-Sign-Up-chromium\test-finished-1.png]]
