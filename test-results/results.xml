@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="1" time="61.71895">
-<testsuite name="addToCart.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.84" errors="0">
-<testcase name="Verify user able to add a product to cart successfully" classname="addToCart.spec.js" time="12.84">
+<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="41.17413499999999">
+<testsuite name="addToCart.spec.js" timestamp="2026-08-06T04:42:18.669Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.711" errors="0">
+<testcase name="Verify user able to add a product to cart successfully" classname="addToCart.spec.js" time="10.711">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|addToCart-Verify-user-able-39227-roduct-to-cart-successfully-chromium\test-finished-1.png]]
@@ -10,8 +10,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="checkout.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="2" failures="0" skipped="0" time="46.736" errors="0">
-<testcase name="Verify user able to add a phone to cart and checkout the product successfully" classname="checkout.spec.js" time="23.128">
+<testsuite name="checkout.spec.js" timestamp="2026-08-06T04:42:18.669Z" hostname="chromium" tests="2" failures="0" skipped="0" time="45.579" errors="0">
+<testcase name="Verify user able to add a phone to cart and checkout the product successfully" classname="checkout.spec.js" time="22.497">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|checkout-Verify-user-able--6f173-ut-the-product-successfully-chromium\test-finished-1.png]]
@@ -20,7 +20,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user able to add a monitor to cart and checkout the product successfully" classname="checkout.spec.js" time="23.608">
+<testcase name="Verify user able to add a monitor to cart and checkout the product successfully" classname="checkout.spec.js" time="23.082">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|checkout-Verify-user-able--2ba3e-ut-the-product-successfully-chromium\test-finished-1.png]]
@@ -30,8 +30,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="login.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="5" failures="0" skipped="0" time="54.413" errors="0">
-<testcase name="Veriy user login using valid credentials" classname="login.spec.js" time="8.475">
+<testsuite name="login.spec.js" timestamp="2026-08-06T04:42:18.669Z" hostname="chromium" tests="5" failures="0" skipped="0" time="38.717" errors="0">
+<testcase name="Veriy user login using valid credentials" classname="login.spec.js" time="8.05">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Veriy-user-login-using-valid-credentials-chromium\test-finished-1.png]]
@@ -40,7 +40,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Veriy user login using invalid username and valid password credentials" classname="login.spec.js" time="8.741">
+<testcase name="Veriy user login using invalid username and valid password credentials" classname="login.spec.js" time="7.586">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Veriy-user-login-usi-7cfa1--valid-password-credentials-chromium\test-finished-1.png]]
@@ -49,7 +49,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user login with valid username and invalid password" classname="login.spec.js" time="10.801">
+<testcase name="Verify user login with valid username and invalid password" classname="login.spec.js" time="6.789">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Verify-user-login-wi-287e2-ername-and-invalid-password-chromium\test-finished-1.png]]
@@ -58,7 +58,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user login with invalid username and invalid password" classname="login.spec.js" time="15.695">
+<testcase name="Verify user login with invalid username and invalid password" classname="login.spec.js" time="7.112">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Verify-user-login-wi-7c3d9-ername-and-invalid-password-chromium\test-finished-1.png]]
@@ -67,7 +67,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Verify user login and logout" classname="login.spec.js" time="10.701">
+<testcase name="Verify user login and logout" classname="login.spec.js" time="9.18">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|login-Verify-user-login-and-logout-chromium\test-finished-1.png]]
@@ -77,121 +77,17 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="signup.spec.js" timestamp="2026-07-27T16:27:07.247Z" hostname="chromium" tests="2" failures="0" skipped="0" time="29.865" errors="1">
-<testcase name="New User Sign Up" classname="signup.spec.js" time="22.355">
+<testsuite name="signup.spec.js" timestamp="2026-08-06T04:42:18.669Z" hostname="chromium" tests="2" failures="0" skipped="0" time="14.27" errors="0">
+<testcase name="New User Sign Up" classname="signup.spec.js" time="6.779">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium\test-failed-1.png]]
+[[ATTACHMENT|signup-New-User-Sign-Up-chromium\test-finished-1.png]]
 
 [[ATTACHMENT|signup-New-User-Sign-Up-chromium\video.webm]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium\error-context.md]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium-retry1\test-failed-1.png]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium-retry1\video.webm]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium-retry1\error-context.md]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium-retry1\trace.zip]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium-retry2\test-failed-1.png]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium-retry2\video.webm]]
-
-[[ATTACHMENT|signup-New-User-Sign-Up-chromium-retry2\error-context.md]]
 ]]>
 </system-out>
-<error message="successAlertMsg is not defined" type="ReferenceError">
-<![CDATA[  [chromium] › signup.spec.js:4:5 › New User Sign Up ───────────────────────────────────────────────
-
-    ReferenceError: successAlertMsg is not defined
-
-       at ..\pages\SignUpPage.js:31
-
-      29 |
-      30 |     async validatingSuccessfullSignUp(){
-    > 31 |         expect(successAlertMsg).toBe('Sign up successful.');
-         |                ^
-      32 |     }
-      33 |
-      34 |     async ignoreSignUp(){
-        at SignUpPage.validatingSuccessfullSignUp (D:\Playwright_Training\DemoBlazeProductStore\pages\SignUpPage.js:31:16)
-        at D:\Playwright_Training\DemoBlazeProductStore\tests\signup.spec.js:8:22
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ..\test-results\signup-New-User-Sign-Up-chromium\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ..\test-results\signup-New-User-Sign-Up-chromium\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ..\test-results\signup-New-User-Sign-Up-chromium\error-context.md
-
-    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
-
-    ReferenceError: successAlertMsg is not defined
-
-       at ..\pages\SignUpPage.js:31
-
-      29 |
-      30 |     async validatingSuccessfullSignUp(){
-    > 31 |         expect(successAlertMsg).toBe('Sign up successful.');
-         |                ^
-      32 |     }
-      33 |
-      34 |     async ignoreSignUp(){
-        at SignUpPage.validatingSuccessfullSignUp (D:\Playwright_Training\DemoBlazeProductStore\pages\SignUpPage.js:31:16)
-        at D:\Playwright_Training\DemoBlazeProductStore\tests\signup.spec.js:8:22
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ..\test-results\signup-New-User-Sign-Up-chromium-retry1\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ..\test-results\signup-New-User-Sign-Up-chromium-retry1\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ..\test-results\signup-New-User-Sign-Up-chromium-retry1\error-context.md
-
-    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
-    ..\test-results\signup-New-User-Sign-Up-chromium-retry1\trace.zip
-    Usage:
-
-        npx playwright show-trace ..\test-results\signup-New-User-Sign-Up-chromium-retry1\trace.zip
-
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
-
-    ReferenceError: successAlertMsg is not defined
-
-       at ..\pages\SignUpPage.js:31
-
-      29 |
-      30 |     async validatingSuccessfullSignUp(){
-    > 31 |         expect(successAlertMsg).toBe('Sign up successful.');
-         |                ^
-      32 |     }
-      33 |
-      34 |     async ignoreSignUp(){
-        at SignUpPage.validatingSuccessfullSignUp (D:\Playwright_Training\DemoBlazeProductStore\pages\SignUpPage.js:31:16)
-        at D:\Playwright_Training\DemoBlazeProductStore\tests\signup.spec.js:8:22
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ..\test-results\signup-New-User-Sign-Up-chromium-retry2\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ..\test-results\signup-New-User-Sign-Up-chromium-retry2\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ..\test-results\signup-New-User-Sign-Up-chromium-retry2\error-context.md
-]]>
-</error>
 </testcase>
-<testcase name="Unsuccessful Sign Up" classname="signup.spec.js" time="7.51">
+<testcase name="Unsuccessful Sign Up" classname="signup.spec.js" time="7.491">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|signup-Unsuccessful-Sign-Up-chromium\test-finished-1.png]]

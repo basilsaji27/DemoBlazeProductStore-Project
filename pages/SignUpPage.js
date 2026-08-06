@@ -1,5 +1,6 @@
 const {expect} = require('@playwright/test')
 const signupCreds = require('../utils/signUpCredentials.json')
+let successAlertMsg = '';
 export class SignUpPage{
     constructor(page){
         this.page = page
@@ -16,10 +17,9 @@ export class SignUpPage{
     }
 
     async newUserSignUp(){
-        let successAlertMsg = '';
         await this.signupheaderbtn.click();
-        await this.signupusername.fill(signupCreds.username)
-        await this.signuppassword.fill(signupCreds.password)
+        await this.signupusername.fill(signupCreds.signUpUsername)
+        await this.signuppassword.fill(signupCreds.signUpPassword)
         this.page.on('dialog', async dialog => { 
             successAlertMsg = dialog.message();
             await dialog.accept();
@@ -33,8 +33,8 @@ export class SignUpPage{
 
     async ignoreSignUp(){
         await this.signupheaderbtn.click();
-        await this.signupusername.fill(signupCreds.username)
-        await this.signuppassword.fill(signupCreds.password)
+        await this.signupusername.fill(signupCreds.signUpUsername)
+        await this.signuppassword.fill(signupCreds.signUpPassword)
         await this.signupclosebtn.click();
     }
     async validatingUnsuccessfulSignUp(){
